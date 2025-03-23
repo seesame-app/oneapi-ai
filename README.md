@@ -18,7 +18,7 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 
 ## 2. How to get access?
 
-<div> Just register your interest here : <a href="https://kiitos.app/multiple_ai_api" target="_new"> KIITOS - OneAPI</a> </div>
+<div> Just register your interest here : <a href="https://kiitos.app/multiple_ai_api" target="_blank">KIITOS - OneAPI</a> </div>
 <div> We will send you the endpoint and credentials to access </div> 
 
 ## 3. Quick start
