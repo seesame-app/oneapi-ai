@@ -51,7 +51,7 @@ Suggested to have `Python >= 3.8` environment
 import requests
 
 # The API endpoint
-url = "https://api-kiitos.com/?key=<API_KEY>"
+url = "https://api-kiitos.com/v1/services/oneapi-ai?key=<API_KEY>"
 
 # Data to be sent
 data = {
@@ -89,7 +89,7 @@ Suggested to have `Python >= 3.8` environment
 import requests
 
 # The API endpoint
-url = "https://api-kiitos.com/key=<API_KEY>"
+url = "https://api-kiitos.com/v1/services/oneapi-ai?key=<API_KEY>"
 
 # Data to be sent
 data = {
