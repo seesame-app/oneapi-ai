@@ -43,7 +43,7 @@ request_type : text
 </details>
 
 <details>
-<summary><h3>Python</h3></summary>
+<summary><h3>Python - LLM Text Output for single and multiple models</h3></summary>
 <div>&nbsp</div>
 Single LLM as parameter
 <div>&nbsp</div>
@@ -132,5 +132,11 @@ print(response_json['content']['claude_result']['message'])
 ```shell
 I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest about what I am.
 ```
-
 </details>
+<details>
+<summary><h3>Python - LLM Image Output for single and multiple models</h3></summary>
+<div>&nbsp</div>
+Single LLM as parameter - Work in progress
+<div>&nbsp</div>    
+Multiple LLM as parameter - Work in progress
+<div>&nbsp</div>    
