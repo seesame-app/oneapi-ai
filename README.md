@@ -28,14 +28,17 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 
 <div>prompt : < Holds the question which needs to be passed to LLM Models > </div>
 <div>ai_name : < Pass the desired name of the AI LLM Model > </div>
+<div>request_type : < default is 'text' > </div>    
 <div>&nbsp</div>
 <div>Accepted names for ai_name : grok , google , openai , claude , deepseek , all </div>
+<div>Accepted names for request_type : image, text </div>
 <div>&nbsp</div>
 <div>Example:</div>
 
 ```shell
 prompt : what is your name
 ai_name : grok
+request_type : text
 ```
 </details>
 
