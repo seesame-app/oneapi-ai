@@ -138,5 +138,41 @@ I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest 
 <div>&nbsp</div>
 Single LLM as parameter - Work in progress
 <div>&nbsp</div>    
+Suggested to have `Python >= 3.8` environment  
+<div>&nbsp</div>
+**Note** : Currently no need to pass the LLM model, all images are defauled to Grok. Work in progress to add multiple LLM models
+<div>&nbsp</div>
+    
+```
+    import requests
+    # The API endpoint
+    url = "https://api-kiitos.com/v1/services/oneapi-ai?key=<API_KEY>"
+    
+    # Data to be sent
+    data = {
+        "prompt": 'dog relaxing on a beach',
+        "request_type": 'image'
+    }
+    
+    # A POST request to the API
+    response = requests.post(url, json=data)
+    
+    # Print the response
+    response_json = response.json()
+    print(response.status_code) 
+    print(response_json['content']['message'])
+    print(response_json['content']['ai_model_name'])
+```
+Sample output :
+
+```
+print(response_json['content']['message'])
+https://storage.googleapis.com/get-ai-images/ai_image_0df09366-b8e0-4bb4-af66-ed3de830d245-20250418183152128.jpeg
+```
+<p align="center">
+  <img width="80%" src="https://storage.googleapis.com/get-ai-images/ai_image_0df09366-b8e0-4bb4-af66-ed3de830d245-20250418183152128.jpeg">
+</p>
+
+<div>&nbsp</div>    
 Multiple LLM as parameter - Work in progress
 <div>&nbsp</div>    
