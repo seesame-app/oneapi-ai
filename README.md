@@ -35,7 +35,7 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 <div>Accepted names for request_type : text </div>
 <div>&nbsp</div>
 <div>IMAGE LLM Models</div>
-<div>Accepted names for ai_name : grok , google , openai  </div>
+<div>Accepted names for ai_name : grok , google  </div>
 <div>Accepted names for request_type : image </div>
 <div>&nbsp</div>   
 <div>Example:</div>
@@ -151,8 +151,6 @@ I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest 
 Single LLM as parameter
 <div>&nbsp</div>    
 Suggested to have `Python >= 3.8` environment
-<div>Accepted names for ai_name : grok , google , openai </div>
-<div>Default is 'grok' </div>    
 <div>&nbsp</div>
 
     
