@@ -30,9 +30,14 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 <div>ai_name : < Pass the desired name of the AI LLM Model > </div>
 <div>request_type : < default is 'text' > </div>    
 <div>&nbsp</div>
+<div>TEXT LLM Models</div>
 <div>Accepted names for ai_name : grok , google , openai , claude , deepseek , all </div>
-<div>Accepted names for request_type : image, text </div>
+<div>Accepted names for request_type : text </div>
 <div>&nbsp</div>
+<div>IMAGE LLM Models</div>
+<div>Accepted names for ai_name : grok , google , openai  </div>
+<div>Accepted names for request_type : image </div>
+<div>&nbsp</div>   
 <div>Example:</div>
 
 ```shell
@@ -40,6 +45,13 @@ prompt : what is your name
 ai_name : grok
 request_type : text
 ```
+
+```shell
+prompt : cat and dog talking to each other
+ai_name : grok
+request_type : image
+```
+
 </details>
 
 <details>
@@ -138,10 +150,11 @@ I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest 
 <div>&nbsp</div>
 Single LLM as parameter
 <div>&nbsp</div>    
-Suggested to have `Python >= 3.8` environment  
+Suggested to have `Python >= 3.8` environment
+<div>Accepted names for ai_name : grok , google , openai </div>
+<div>Default is 'grok' </div>    
 <div>&nbsp</div>
-**Note** : Currently no need to pass the LLM model, all images are defauled to Grok. Work in progress to add multiple LLM models
-<div>&nbsp</div>
+
     
 ```
     import requests
@@ -151,6 +164,7 @@ Suggested to have `Python >= 3.8` environment
     # Data to be sent
     data = {
         "prompt": 'dog relaxing on a beach',
+        "ai_name": 'grok',
         "request_type": 'image'
     }
     
