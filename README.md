@@ -136,7 +136,7 @@ I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest 
 <details>
 <summary><h3>Python - LLM Image Output for single and multiple models</h3></summary>
 <div>&nbsp</div>
-Single LLM as parameter - Work in progress
+Single LLM as parameter
 <div>&nbsp</div>    
 Suggested to have `Python >= 3.8` environment  
 <div>&nbsp</div>
