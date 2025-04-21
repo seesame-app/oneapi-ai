@@ -35,7 +35,7 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 <div>Accepted names for request_type : text </div>
 <div>&nbsp</div>
 <div>IMAGE LLM Models</div>
-<div>Accepted names for ai_name : grok , google  </div>
+<div>Accepted names for ai_name : grok , google , google-imagen </div>
 <div>Accepted names for request_type : image </div>
 <div>&nbsp</div>   
 <div>Example:</div>
