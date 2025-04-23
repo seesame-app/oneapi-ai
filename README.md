@@ -185,6 +185,4 @@ https://storage.googleapis.com/get-ai-images/ai_image_0df09366-b8e0-4bb4-af66-ed
   <img width="80%" src="https://storage.googleapis.com/get-ai-images/ai_image_0df09366-b8e0-4bb4-af66-ed3de830d245-20250418183152128.jpeg">
 </p>
 
-<div>&nbsp</div>    
-Multiple LLM as parameter - Work in progress
-<div>&nbsp</div>    
+<div>&nbsp</div>     
