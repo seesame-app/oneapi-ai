@@ -18,7 +18,7 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 
 ## 2. How to get access?
 
-<div> Get your Instant API Key here : <a href="https://kiitos.app/multiple_ai_api" target="_blank">KIITOS - OneAPI</a> </div>
+<div> Get your Instant API Key here : <a href="https://kiitos.app/oneapi_ai" target="_blank">KIITOS - OneAPI</a> </div>
 
 ## 3. Quick start
 
