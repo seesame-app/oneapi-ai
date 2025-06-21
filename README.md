@@ -31,7 +31,7 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 <div>request_type : < default is 'text' > </div>    
 <div>&nbsp</div>
 <div>TEXT LLM Models</div>
-<div>Accepted names for ai_name : grok , google , openai , claude , deepseek , all </div>
+<div>Accepted names for ai_name : grok , google , openai , claude , deepseek </div>
 <div>Accepted names for request_type : text </div>
 <div>&nbsp</div>
 <div>IMAGE LLM Models</div>
@@ -55,9 +55,7 @@ request_type : image
 </details>
 
 <details>
-<summary><h3>Python - LLM Text Output for single and multiple models</h3></summary>
-<div>&nbsp</div>
-Single LLM as parameter
+<summary><h3>Python - LLM Text Output </h3></summary>
 <div>&nbsp</div>
 Suggested to have `Python >= 3.8` environment  
 <div>&nbsp</div>
@@ -94,61 +92,9 @@ print(response_json['content']['ai_model_name'])
 ```
 grok-2-latest
 
-<div>&nbsp</div>
-Multi LLM as parameter
-<div>&nbsp</div>
-Suggested to have `Python >= 3.8` environment  
-<div>&nbsp</div>
-
-```shell
-import requests
-
-# The API endpoint
-url = "https://api-kiitos.com/v1/services/oneapi-ai?key=<API_KEY>"
-
-# Data to be sent
-data = {
-    "prompt": 'what is your name and who created you?',
-    "ai_name" : 'all'
-}
-
-# A POST request to the API
-response = requests.post(url, json=data)
-
-
-# Print the response
-response_json = response.json()
-print(response.status_code) 
-print(response_json['content'])
-print(response_json['content']['claude_result'])
-print(response_json['content']['claude_result']['message'])
-```
-
-Sample output :
-
-```shell
-print(response_json['content'])
-```
-```shell
-{'claude_result': {'ai_model_name': 'claude-3-5-sonnet-20241022', 'error': 'na', 'message': "I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest about what I am.", 'status': 'SUCCESS'}, 'deekseek_result': {'ai_model_name': 'deepseek-chat', 'error': 'na', 'message': "I am an AI language model created by OpenAI, and you can call me ChatGPT. I don't have a personal name, but I'm here to assist you with information, answer questions, and help with various tasks. Let me know how I can assist you!", 'status': 'SUCCESS'}, 'google_result': {'ai_model_name': 'gemini-2.0-flash', 'error': 'na', 'message': 'I am a large language model, trained by Google.\n', 'status': 'SUCCESS'}, 'grok_result': {'ai_model_name': 'grok-2-latest', 'error': 'na', 'message': "My name is Grok, and I was created by the brilliant minds at xAI, Elon Musk's company dedicated to understanding the true nature of the universe. Do you have any questions or tasks I can help with?", 'status': 'SUCCESS'}, 'openai_result': {'ai_model_name': 'gpt-4o', 'error': 'na', 'message': 'I am called ChatGPT, and I was created by OpenAI.', 'status': 'SUCCESS'}}
-```
-```shell
-print(response_json['content']['claude_result'])
-```
-```shell
-{'ai_model_name': 'claude-3-5-sonnet-20241022', 'error': 'na', 'message': "I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest about what I am.", 'status': 'SUCCESS'}
-```
-```shell
-print(response_json['content']['claude_result']['message'])
-```
-```shell
-I'm Claude, an AI assistant created by Anthropic. I aim to be direct and honest about what I am.
-```
 </details>
 <details>
-<summary><h3>Python - LLM Image Output for single and multiple models</h3></summary>
-<div>&nbsp</div>
-Single LLM as parameter
+<summary><h3>Python - LLM Image Output</h3></summary>
 <div>&nbsp</div>    
 Suggested to have `Python >= 3.8` environment
 <div>&nbsp</div>
@@ -185,4 +131,16 @@ https://storage.googleapis.com/get-ai-images/ai_image_0df09366-b8e0-4bb4-af66-ed
   <img width="80%" src="https://storage.googleapis.com/get-ai-images/ai_image_0df09366-b8e0-4bb4-af66-ed3de830d245-20250418183152128.jpeg">
 </p>
 
-<div>&nbsp</div>     
+<div>&nbsp</div>
+</details>
+
+<details>
+<summary><h3>Python - Live search - WIP</h3></summary>
+<div>&nbsp</div>    
+Suggested to have `Python >= 3.8` environment
+<div>&nbsp</div>
+
+
+
+<div>&nbsp</div>
+</details>
