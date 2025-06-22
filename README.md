@@ -34,7 +34,7 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 <div>Accepted names for request_type : text </div>
 <div>&nbsp</div>
 <div>IMAGE LLM Models</div>
-<div>Accepted names for ai_name : openai, grok , google , google-imagen </div>
+<div>Accepted names for ai_name : openai, grok , google-imagen </div>
 <div>Accepted names for request_type : image </div>
 <div>&nbsp</div>   
 <div>Example:</div>
@@ -79,6 +79,7 @@ response_json = response.json()
 print(response.status_code) 
 print(response_json['content']['message'])
 print(response_json['content']['ai_model_name'])
+print(response_json['content']['error'])
 ```
 Sample output :
 
@@ -119,6 +120,7 @@ Suggested to have `Python >= 3.8` environment
     print(response.status_code) 
     print(response_json['content']['message'])
     print(response_json['content']['ai_model_name'])
+    print(response_json['content']['error'])
 ```
 Sample output :
 
