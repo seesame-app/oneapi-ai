@@ -170,9 +170,15 @@ Suggested to have `Python >= 3.8` environment
 Sample output :
 
 ```
-print(response_json['content']['message'])
+<Response [200]>
+200
 https://storage.googleapis.com/api_ai_videos/videos/video_file_afae154f-6262-49bb-af5e-25a0dd34d0a2-20250711172749001.mp4
+veo-2
+na
+SUCCESS
 ```
+Click to watch the video  :
+
 [![Watch the video](https://github.com/seesame-app/oneapi-ai/blob/main/assets/Screenshot%202025-07-12%20013926.png)](https://storage.googleapis.com/api_ai_videos/videos/video_file_afae154f-6262-49bb-af5e-25a0dd34d0a2-20250711172749001.mp4)
 
 <div>&nbsp</div>
