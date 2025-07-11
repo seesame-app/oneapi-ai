@@ -171,12 +171,9 @@ Sample output :
 
 ```
 print(response_json['content']['message'])
-[https://storage.googleapis.com/get-ai-images/ai_image_0df09366-b8e0-4bb4-af66-ed3de830d245-20250418183152128.jpeg](https://storage.googleapis.com/api_ai_videos/videos/video_file_afae154f-6262-49bb-af5e-25a0dd34d0a2-20250711172749001.mp4)
+https://storage.googleapis.com/api_ai_videos/videos/video_file_afae154f-6262-49bb-af5e-25a0dd34d0a2-20250711172749001.mp4
 ```
-<p align="center">
-    [![Watch the video](https://github.com/seesame-app/oneapi-ai/blob/main/assets/video_file_afae154f-6262-49bb-af5e-25a0dd34d0a2-20250711172749001.mp4)]
-</p>
-
+[![Watch the video](https://github.com/seesame-app/oneapi-ai/blob/main/assets/Screenshot%202025-07-12%20013926.png)](https://github.com/seesame-app/oneapi-ai/blob/main/assets/video_file_afae154f-6262-49bb-af5e-25a0dd34d0a2-20250711172749001.mp4)
 
 <div>&nbsp</div>
 </details>
