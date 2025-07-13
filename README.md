@@ -37,6 +37,10 @@ Choose, Compare, and Create with Ease. Build Smarter, Faster, and More Innovativ
 <div>Accepted names for ai_name : openai, grok , google-imagen </div>
 <div>Accepted names for request_type : image </div>
 <div>&nbsp</div>   
+<div>Video Generation Models</div>
+<div>Accepted names for ai_name : google </div>
+<div>Accepted names for request_type : video </div>
+<div>&nbsp</div>    
 <div>Example:</div>
 
 ```shell
@@ -49,6 +53,11 @@ request_type : text
 prompt : cat and dog talking to each other
 ai_name : grok
 request_type : image
+```
+```shell
+prompt : cat and dog talking to each other
+ai_name : google
+request_type : video
 ```
 
 </details>
