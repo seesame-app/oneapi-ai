@@ -150,6 +150,7 @@ Suggested to have `Python >= 3.8` environment
     data = {
         "prompt": 'ddragon flaying over a mountain landscape, cinematic, high quality, 4k resolution, epic fantasy scene, vibrant colors, detailed textures, dramatic lighting, wide shot, dynamic composition, majestic atmosphere, digital art style',
         "request_type": 'video'
+        "ai_name" : 'google'
     }
     
     # A POST request to the API
@@ -175,7 +176,7 @@ Sample output :
 https://storage.googleapis.com/api_ai_videos/videos/video_file_afae154f-6262-49bb-af5e-25a0dd34d0a2-20250711172749001.mp4
 veo-2
 na
-SUCCESS
+PROGRESS
 ```
 Click to watch the video  :
 
